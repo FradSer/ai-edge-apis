@@ -22,10 +22,10 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.Send
-import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ExposedDropdownMenuBox
 import androidx.compose.material3.ExposedDropdownMenuDefaults
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -55,7 +55,7 @@ import kotlinx.coroutines.launch
 @Composable
 /** Displays a standard divider. */
 fun StandardDivider() {
-  Divider(thickness = 1.dp, modifier = Modifier.padding(vertical = 3.dp))
+  HorizontalDivider(thickness = 1.dp, modifier = Modifier.padding(vertical = 3.dp))
 }
 
 @ExperimentalMaterial3Api
