@@ -13,6 +13,7 @@
 # limitations under the License.
 
 load("@rules_antlr//antlr:antlr4.bzl", "antlr")
+load("@rules_cc//cc:cc_library.bzl", "cc_library")
 
 package(default_visibility = [
     ":default_visibility",
